@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Laman HTML Sesi 4
+        </title>
+            <body style="background-color:#C4E9E4;">
+                <p style="font-family:'Courier New'">Create by</p>
+                <p style="font-family:'Courier New'"><strong>Najma Amira Mumtaz</strong></p>
+                <p style="font-family:'Courier New'"><strong>A11.2022.14708</strong></p>
+                <h1 style="font-family:'garamond';text-align:center;font-size:40px;color:#081a4a;">HTML FORMS</h1>
+                <form action="proses.php" method="POST">
+                    <fieldset>
+                        <legend style="font-family:'garamond';font-size:40px;color:#081a4a;">Biodata Mahasiswa</legend>
+                        <table height="600px" border="0" width="500px">
+                        <tbody>
+                            <tr>
+                                <td><label for="Nama">Nama</label></td>
+                                <td>:</td>    
+                                <td><input type="text" id="Nama" name="Nama"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="NIM">NIM</label></td>
+                                <td>:</td> 
+                                <td><input type="text" id="NIM" name="NIM" maxlength="14"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="kelompok">Kelompok</label></td>
+                                <td>:</td>
+                                <td>
+                                    <select id="kelompok" name="kelompok">
+                                        <option value="4101">4101</option>
+                                        <option value="4102">4102</option>
+                                        <option value="4103">4103</option>
+                                        <option value="4104">4104</option>
+                                        <option value="4105">4105</option>
+                                        <option value="4106">4106</option>
+                                        <option value="4107">4107</option>
+                                        <option value="4108">4108</option>
+                                        <option value="4109">4109</option>
+                                        <option value="4110">4110</option>
+                                        <option value="4111">4111</option>
+                                        <option value="4112">4112</option>
+                                        <option value="4113">4113</option>
+                                        <option value="4114">4114</option>
+                                        <option value="4115">4115</option>
+                                        <option value="4116">4116</option>
+                                        <option value="4117">4117</option>
+                                        <option value="4118">4118</option>
+                                        <option value="4119">4119</option>
+                                        <option value="4120">4120</option>
+                                      </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="pl">Tempat Lahir</label></td>
+                                <td>:</td>
+                                <td><input type="text" id="pl" name="pl" value=""></td>
+                            </tr>
+                            <tr>
+                                <td><label for="tl">Tanggal Lahir</label></td>
+                                <td>:</td>
+                                <td><input type="date" id="tl" name="tl"></td>
+                            </tr>
+                            <tr>
+                                <td><p>Jenis Kelamin</p></td>
+                                <td>:</td>
+                                <td>
+                                    <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+                                    <label for="perempuan">Perempuan</label><br>
+                                    <input type="radio" id="laki-laki" name="jenis_kelamin" value="Laki-laki">
+                                    <label for="laki-laki">Laki-laki</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="alamat">Alamat</label></td>
+                                <td>:</td>
+                                <td><input type="text" id="alamat" name="alamat"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="hp">No HP</label></td>
+                                <td>:</td>
+                                <td><input type="text" id="hp" name="hp" value=""></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Email</label></td>
+                                <td>:</td>
+                                <td><input type="email" id="email" name="email"></td>
+                            </tr>
+                            <tr>
+                                <td><p>Peminatan</p></td>
+                                <td>:</td>
+                                <td>
+                                    <input type="checkbox" id="P1" name="Programmer" value="Programmer">
+                                    <label for="P1">Programmer</label><br>
+                                    <input type="checkbox" id="P2" name="Software Developer" value="Software Developer">
+                                    <label for="P2">Software Developer</label><br>
+                                    <input type="checkbox" id="P3" name="Web Designer" value="Web Designer">
+                                    <label for="P3">Web Designer</label><br>
+                                    <input type="checkbox" id="P4" name="System Analyst" value="System Analyst">
+                                    <label for="P4">System Analyst</label><br>
+                                    <input type="checkbox" id="P5" name="IT Consultant" value="IT Consultant">
+                                    <label for="P5">IT Consultant</label><br>
+                                    <input type="checkbox" id="P6" name="Software Engineer" value="Software Engineer">
+                                    <label for="P6">Software Engineer</label><br>
+                                    <input type="checkbox" id="P7" name="Database Engineer" value="Database Engineer">
+                                    <label for="P7">Database Engineer</label><br>
+                                    <input type="checkbox" id="P8" name="IT Executive" value="IT Executive">
+                                    <label for="P8">IT Executive</label><br>
+                                    <input type="checkbox" id="P9" name="Network Administrator" value="Network Administrator">
+                                    <label for="P9">Network Administrator</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="myfile">Unggah foto 3x4 di sini</label></td>
+                                <td>:</td>
+                                <td>
+                                    <input type="file" id="myfile" name="myfile">
+                                </td>
+                            </tr>
+                        </tbody>
+                        </table>
+                        <br>    
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                  </form> 
+            </body>
+    </head>
+</html>
